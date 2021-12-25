@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio</title>
+
+        <!--fontawesome cdn css-1-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!--bootstrap css-1 js-2-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"/>
+
+        <!--custom css-->
+        <link href="./css/style.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+
+<!--START HOME SECTION-->
+<section id="home" class="d-flex  align-items-center" style="background-color:#e6dfeb;height:100vh;">
+    <div class="container-fluid">
+
+        <!--start navbar-->
+        <div class="burgers  navbars">
+
+          <div class="bl-container out">
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>    
+          </div>       
+
+          <div class="menus in">
+            <div class="bd-names"><a href="index.html" class="lglink">My Portfolio</a></div>
+            <ul class="menus-b">
+                
+                <li ><a href="#home" class="lglink home active">Home</a></li>
+                <li><a href="#about" class="lglink about">About</a></li>
+                <li><a href="#portfolio" class="lglink portfo">Portfolio</a></li>
+                <li><a href="#contact" class="lglink contact">Contact</a></li>
+
+                <li class="close"><i class="fas fa-times" style="cursor:pointer;"></i></li>
+            </ul>
+          </div>
+          
+        </div>
+
+            <nav class="navbar d-block d-md-none fixed-top sm-navs" style="background:#ad80ed;">
+                <a href="index.html" class="navbar-brand fw-bold fs-2 mx-3" style="color: #fff;">My Protfolio</a>
+
+                <button class="navbar-toggler toggles btn btn-sm "data-bs-toggle="collapse" data-bs-target="#navcollapse" >
+                    <div class="bars"></div>
+                    <div class="bars"></div>
+                    <div class="bars"></div>  
+                </button>
+
+                <div id="navcollapse" class="navbar-collapse collapse">
+                    <ul class="navbar-nav">
+                        <li class="navbar-item"><a href="#home" class="nav-link fw-bold fs-4 ms-2" style="color: #fff;">Home</a></li>
+                        <li class="navbar-item"><a href="#about" class="nav-link fw-bold fs-4 ms-2" style="color: #fff;">About</a></li>
+                        <li class="navbar-item"><a href="#portfolio" class="nav-link fw-bold fs-4 ms-2" style="color: #fff;">Portfolio</a></li>
+                        <li class="navbar-item"><a href="#contact" class="nav-link fw-bold fs-4 ms-2" style="color: #fff;">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+         <!--end navbar-->
+
+        <!--Start Banner-->
+            <div class="col-12 text-center" style="color:#8c23e8;">
+                <img src="./img/svg/svg/avatar4.svg" width="350px;" height="350px;" class="avatar"/>
+                <h1 class="fw-bold ho-head">Web Developer</h1>
+                <h2 class="fw-bold ho-head">Salai Thomas</h2>
+            </div>
+        <!--End Banner-->
+    </div>
+</section>
+<!--END HOME SECTION--> 
+
+
+<!--START ABOUT SECTION-->
+<section id="about" class="container-fluid " style="background:#910924;">
+    <div class="row py-3 justify-content-between mx-auto">
+        <div class="col-md-4 col-sm-10 mx-auto text-center">
+            <img src="./img/svg/svg/me.jpg" class="img-fluid" style="height:370px;"/>
+        </div>
+
+        <div  class="col-md-7 col-sm-10 ">
+            <div class="text-white ms-auto">
+                <p class=" col-md-9 col-12 display-4 text-center">About Me</p>
+                <p class=" col-md-9 col-12 fw-bolder fs-4 text-capitalize" style="letter-spacing:2px;word-spacing: 3px;">
+                  I learned web developement and database from dataland technology in 2021-2022.
+                  Currently, I'm studying the psychology and I also Work as a Web Developer.
+                </p>
+            </div>          
+                 
+        </div>
+    </div>
+
+    <div class="row  justify-content-center">
+        <div class="col-lg-4 col-md-5 col-sm-10 text-center mt-3">
+            <div class="card">
+                <div class="card-body">
+                    <div class=" d-flex justify-content-between"style="color:#e85900;">
+                        <h3 class="fw-bold d-inline-block">HTML</h3>
+                        <i class="fab fa-html5 fs-1" ></i>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" aria-valuenow="87" aria-valuemin="0" aria-valuemax="100" style="width: 87%;background:#e85900;"></div>
+                    </div>
+                    <div class="d-flex justify-content-between mt-2"style="color:#e85900;">
+                        <p class="d-inline-block fs-5 fw-bold">Rate</p> <p class="d-inline-block fs-5 fw-bold">87%</p>
+                    </div>
+                </div>
+            </div>
+        </div>  
+
+        <div class="col-lg-4 col-md-5 col-sm-10 text-center mt-3">
+            <div class="card">
+                <div class="card-body">
+                    <div class=" d-flex justify-content-between"style="color:#0341fc;">
+                        <h3 class="fw-bold d-inline-block">CSS</h3>
+                        <i class="fab fa-css3-alt fs-1"></i>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" style="width:82%;background:#0341fc;"></div>
+                    </div>
+                    <div class="d-flex justify-content-between mt-2"style="color:#0341fc;">
+                        <p class="d-inline-block fs-5 fw-bold">Rate</p> <p class="d-inline-block fs-5 fw-bold">82%</p>
+                    </div>
+                </div>
+            </div>
+        </div>  
+
+        <div class="col-lg-4 col-md-5 col-sm-10 text-center mt-3">
+            <div class="card">
+                <div class="card-body">
+                    <div class=" d-flex justify-content-between"style="color:#e8da1a;">
+                        <h3 class="fw-bold d-inline-block text-capatilize">JAVASCRIPT</h3>
+                        <i class="fab fa-js-square fs-1"></i>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" aria-valuenow="77" aria-valuemin="0" aria-valuemax="100" style="width: 77%;background:#e8da1a;"></div>
+                    </div>
+                    <div class="d-flex justify-content-between mt-2"style="color:#e8da1a;">
+                        <p class="d-inline-block fs-5 fw-bold">Rate</p> <p class="d-inline-block fs-5 fw-bold">77%</p>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </div>
+
+    <div class="row  justify-content-center pb-2">
+        <div class="col-lg-4 col-md-5 col-sm-10 text-center mt-3">
+            <div class="card">
+                <div class="card-body">
+                    <div class=" d-flex justify-content-between"style="color:#0377fc;">
+                        <h3 class="fw-bold d-inline-block">Mysql</h3>
+                        <i class="fas fa-database fs-1" ></i>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;background:#0377fc;"></div>
+                    </div>
+                    <div class="d-flex justify-content-between mt-2"style="color:#0377fc;">
+                        <p class="d-inline-block fs-5 fw-bold">Rate</p> <p class="d-inline-block fs-5 fw-bold">70%</p>
+                    </div>
+                </div>
+            </div>
+        </div>  
+
+        <div class="col-lg-4 col-md-5 col-sm-10 text-center mt-3">
+            <div class="card">
+                <div class="card-body">
+                    <div class=" d-flex justify-content-between"style="color:#8403fc;">
+                        <h3 class="fw-bold d-inline-block">Bootstrap</h3>
+                        <i class="fab fa-bootstrap fs-1"></i>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" aria-valuenow="77" aria-valuemin="0" aria-valuemax="100" style="width:77%;background:#8403fc;"></div>
+                    </div>
+                    <div class="d-flex justify-content-between mt-2"style="color:#8403fc;">
+                        <p class="d-inline-block fs-5 fw-bold">Rate</p> <p class="d-inline-block fs-5 fw-bold">77%</p>
+                    </div>
+                </div>
+            </div>
+        </div>  
+
+        <div class="col-lg-4 col-md-5 col-sm-10 text-center mt-3">
+            <div class="card">
+                <div class="card-body">
+                    <div class=" d-flex justify-content-between"style="color:#183fed;">
+                        <h3 class="fw-bold d-inline-block">JQuery</h3>
+                        <img src="./img/pnglogo/jquery.jpg" width="42px"/>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;background:#183fed;"></div>
+                    </div>
+                    <div class="d-flex justify-content-between mt-2"style="color:#183fed;">
+                        <p class="d-inline-block fs-5 fw-bold">Rate</p> <p class="d-inline-block fs-5 fw-bold">70%</p>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </div>
+</section>
+<!--END ABOUT SECTION-->
+
+
+<!--START PORTFOLIO SECTION-->
+<section id="portfolio" class="container-fluid py-3" style="background:#77727a;">
+    <h2 class="col-12 display-4 fw-bold text-white text-center port-heads">Portofolio</h2>
+
+        <div class="row">
+            <div class="col-12 col-lg-4 text-center mt-3">
+                <video src="./video/onlinemarket.mp4" class="col-12" autoplay="autoplay" loop="loop" muted="muted"></video>
+                <button class="btn fs-4 px-3 visits" style="background:#8c23e8;color:#fff;">Visit</button>  
+            </div>
+            <div class="col-12 col-lg-4 text-center mt-3">
+                <video src="./video/noteapplication.mp4" class="col-12" autoplay="autoplay" loop="loop" muted="muted"></video>
+                <button class="btn fs-4 px-3 visits" style="background:#8c23e8;color:#fff;">Visit</button>  
+            </div>
+            <div class="col-12 col-lg-4 text-center mt-3">
+                <video src="./video/floatingbuttons.mp4" class="col-12" autoplay="autoplay" loop="loop" muted="muted"></video>
+                <button class="btn fs-4 px-3 visits" style="background:#8c23e8;color:#fff;">Visit</button>  
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-lg-4 text-center mt-3">
+                <video src="./video/3dboxes.mp4" class="col-12" autoplay="autoplay" loop="loop" muted="muted"></video>
+                <button class="btn fs-4 px-3 visits" style="background:#8c23e8;color:#fff;">Visit</button>  
+            </div>
+            <div class="col-12 col-lg-4 text-center mt-3">
+                <video src="./video/frilistsfilter.mp4" class="col-12" autoplay="autoplay" loop="loop" muted="muted"></video>
+                <button class="btn fs-4 px-3 visits" style="background:#8c23e8;color:#fff;">Visit</button>  
+            </div>
+            <div class="col-12 col-lg-4 text-center mt-3">
+                <video src="./video/admintemplate.mp4" class="col-12" autoplay="autoplay" loop="loop" muted="muted"></video>
+                <button class="btn fs-4 px-3 visits" style="background:#8c23e8;color:#fff;">Visit</button>  
+            </div>
+        </div>
+   
+</section>
+<!--END PORTFOLIO SECTION-->
+
+
+<!--START CONTACT SECTION-->
+<section id="contact" class="container-fluid" style="background:#000;">
+    <h2 class="text-light text-center display-2">Contact</h2>
+    <div class="row">
+        <form action="" method="" class="col-md-6 col-sm-10 px-2 d-block">
+            <input type="text" class="form-control con-forms mx-md-3 my-3" placeholder="Your Name"/>
+            <input type="text" class="form-control con-forms mx-md-3 my-3" placeholder="Your Phone"/>
+            <input type="text" class="form-control con-forms mx-md-3 my-3" placeholder="Your Email"/>
+            <textarea rows="7" placeholder="Write message" class="form-control con-forms mx-md-3  my-3"></textarea>
+
+            <input type="submit" class="btn mx-3 for-clicks" value="send message"/>
+        </form>
+
+        <div class="col-md-6 col-sm-12 ms-auto mt-3">
+            <h2 class="text-center"style="color:#fc03e3;text-shadow:2px 2px 2px #fc03e3;">Contact Me</h2>
+
+                <label class="mt-3 col-sm-fs-6 cons">Email</label>
+                <a href="index.html" class="con-links mx-lg-4 d-inline-block">salaithomas582@email.com</a>
+                <br/>
+                <label class="cons">Phone</label>
+                <a href="index.html" class="con-links mx-lg-4 d-inline-block">+95 09785658703</a>
+
+
+            <div class="text-center mt-3">
+                <button class=" con-btns">Download CV</button>
+            </div>
+
+        <div class="py-3 text-center">
+            <div class="d-inline-block mx-2 icons"><a href="#" class="icon-links"><i class="fab fa-facebook-square fa-3x" style="color:#0b12e0;"></i></a></div>
+            <div class="d-inline-block mx-2 icons"><a href="#" class="icon-links"><i class="fab fa-github fa-3x text-white" ></i></a></div>
+            <div class="d-inline-block mx-2 icons"><a href="#" class="icon-links"><i class="fab fa-instagram fa-3x" style="color:#f51911;"></i></a></div>
+            <div class="d-inline-block mx-2 icons"><a href="#" class="icon-links"><i class="fab fa-twitter fa-3x" style="color:#11cff5;"></i></a></div>
+            <div class="d-inline-block mx-2 icons"><a href="#" class="icon-links"><i class="fas fa-phone-square fa-3x" style="color:#14f53d;"></i></a></div>
+        </div>
+
+        </div>
+
+    </div>
+</section>
+<!--END CONTACT SECTION-->
+
+<footer class="container-fluid"style="background-color:#5e5e5e;">
+    <p class="fs-5 text-center text-white"style="background-color:#5e5e5e;" ><i class="far fa-copyright"></i> copyright <span class="date"></span></p>
+</footer>
+        <!--bootstrap css-1 js-2-->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+        <!--custom js-->
+        <script src="./js/app.js" type="text/javascript"></script>
+    </body>
+</html>
